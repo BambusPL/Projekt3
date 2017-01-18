@@ -224,7 +224,7 @@ header {
 
 .ref-overlay{
     background-color: rgba(31,31,31, 0.75);
-    padding-top: 100px;
+    padding-top: 50px;
     
 }
 
@@ -276,5 +276,13 @@ header {
     font-size: 18px;
     line-height: 27px;
     padding-top: 50px;
+}
+
+/*=============sekcja CECHY==========*/
+
+#features hr{
+     border-color: #129cf3;
+    width: 65px;
+    margin: 0 auto;
 }
 
