@@ -1,34 +1,252 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
+<html lang="pl">
+
+<head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <title>Witam na mojej stronie</title>
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
-  </head>
-  <body>
-    
 
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
+    <!--favicon-->
+    <link rel="shortcut icon" href="img/favicon.ico" />
+
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,300i,400,400i,500,600,600i,700,700i,800,900|Source+Sans+Pro" rel="stylesheet">
+</head>
+
+<body>
+
+    <!--Naglowek-->
+
+    <header>
+        <div class="header-overlay">
+            <!--background dla calego headera, w tym przypadku przyciemnienie-->
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <!--Logo-->
+                        <div class="logo text-center">
+                            <img src="img/logo.png" alt="logo">
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-8">
+                        <div class="header-text">
+                            <!-- tytuł i opis-->
+
+                            <h1>To jest moja przykładowa strona</h1>
+                            <p>Zbudowania w Bootstrap4 i html5</p>
+
+                        </div>
+
+                        <div class="header-btns">
+                            <!--przyciski-->
+                            <a class="btn btn-download" href="#">Witaj</a>
+                            <a href="#" class="btn btn-tour">Lorem <i class="fa fa-angle-down"></i></a>
+
+                        </div>
+
+                    </div>
+                    <div class="col-md-3 offset-md-1">
+                        <div class="header-zdj-pr">
+
+                            <!-- header zdj-->
+                            <img src="img/iphone-header.png" alt="zdjecie">
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+
+
+
+
+    </header>
+
+    <!--KONIEC NAGLOWKA-->
+
+    <!--poczatek sekcji O NAS-->
+    <section id="sekcja1-onas">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10 offset-md-1">
+                    <!--O nas tytul i opis-->
+                    <div class="tytul">
+                        <h2>O nas</h2>
+                        <hr>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est error molestiae labore deserunt quasi aperiam officia, nisi officiis esse excepturi.</p>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+
+        <!-- rozdzielenie sekcji-->
+
+        <div class="choose-us-wraper">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+
+                        <!-- o nas zdj ip-->
+                        <div class="about-iphone">
+                            <img src="img/about-iphone.png" alt="...">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <!-- dlaczego my-->
+                        <div class="choose-us-title">
+                            <h2>Dlaczego my?</h2>
+                            <hr>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, repellat.</p>
+                        </div>
+
+                        <!-- dlaczego my tytul-->
+                        <div class="choose-us-des">
+                            <!-- dlaczego my item-->
+                            <div class="choose-us-item">
+                                <!-- ikona font awesome-->
+                                <i class="fa fa-bolt"></i>
+
+                                <!-- dlaczego my tytul i opis-->
+                                <h3>Lorem ipsum dolor.</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum veritatis ipsa architecto ad explicabo, neque.</p>
+                            </div>
+
+                        </div>
+
+                        <div class="choose-us-des">
+                            <!-- dlaczego my item 222-->
+                            <div class="choose-us-item">
+                                <!-- ikona font awesome-->
+                                <i class="fa fa-bullhorn"></i>
+
+                                <!-- dlaczego my tytul i opis-->
+                                <h3>Lorem ipsum dolor.</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum veritatis ipsa architecto ad explicabo, neque.</p>
+                            </div>
+
+                        </div>
+
+                        <div class="choose-us-des">
+                            <!-- dlaczego my item333333-->
+                            <div class="choose-us-item">
+                                <!-- ikona font awesome-->
+                                <i class="fa fa-flag-o"></i>
+
+                                <!-- dlaczego my tytul i opis-->
+                                <h3>Lorem ipsum dolor.</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum veritatis ipsa architecto ad explicabo, neque.</p>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!--referencje-->
+
+    <section class="ref">
+        <div class="ref-overlay">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div id="karuzela" class="carousel slide" data-ride="carousel">
+                            <!-- przyciski-->
+
+                            <ol class="carousel-indicators">
+                               <!-- data target id takie samo jak id carousel-->
+                                <li data-target="#karuzela" data-slide-to="0" class="active"></li>
+                                <li data-target="#karuzela" data-slide-to="1"></li>
+                                <li data-target="#karuzela" data-slide-to="2"></li>
+                            </ol>
+                            
+                            <!--slajdy-->
+                           <div class="carousel-inner">
+                                
+                                <!-- pierwszy slajd-->
+                                <div class="carousel-item active text-center">
+                                   
+                                    
+                                
+                                    <div class="carousel-caption">
+                                       <img src="img/client-01.jpg" alt="pierwszy-klient" class=".display-*-block">
+                                       
+                                        <h2>Jon Doe</h2>
+                                        <h4><span> Jakiś nub </span>Lorem ipsum.</h4>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae, minus pariatur neque provident dolorum quos, reprehenderit saepe vero quod esse earum corrupti, optio aut cumque?</p></div>
+                                    
+                                   
+                                    
+                                </div>
+                                
+                                 <!-- pierwszy slajd-->
+                                <div class="carousel-item text-center ">
+                                    
+                                   
+                                   
+                                    <div class="carousel-caption">
+                                       <img src="img/client-03.jpg" alt="pierwszy-klient" class=".display-*-block">
+                                        <h2>Staszek Sztacheta</h2>
+                                        <h4><span> Jakiś nub </span>elo żelo</h4>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae, minus pariatur neque provident dolorum quos, reprehenderit saepe vero quod esse earum corrupti, optio aut cumque?</p>
+                                    </div> 
+                                    
+                                </div>
+                                
+                                 <!-- pierwszy slajd-->
+                                <div class="carousel-item text-center">
+                                    
+                                  
+                                   
+                                    <div class="carousel-caption">
+                                        <img src="img/client-02.jpg" alt="pierwszy-klient" class=".display-*-block">
+                                        <h2>Staszek Sztacheta</h2>
+                                        <h4><span> Jakiś nub </span>elo żelo</h4>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae, minus pariatur neque provident dolorum quos, reprehenderit saepe vero quod esse earum corrupti, optio aut cumque?</p>
+                                    </div> 
+                                    
+                                </div>
+                            </div>
+                            
+                            
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
     <!-- jQuery first, then Tether, then Bootstrap JS. -->
     <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
-  </body>
+</body>
+
 </html>
