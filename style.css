@@ -286,3 +286,202 @@ header {
     margin: 0 auto;
 }
 
+
+.features-inner-wrapper {
+    
+    padding-top: 30px;
+    padding-bottom: 70px;
+    
+}
+
+.left-feature-item{
+    position: relative;
+    padding-right: 90px;
+    margin-bottom: 65px;
+    text-align: right;
+    margin-top: 35px;
+}
+
+.left-feature-item-icon{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 90px; /*przydaje sie w srodkowaniu ikony*/
+    text-align: center;
+    
+}
+
+.left-feature-item-icon i{
+    font-size: 40px;
+    color: #129cf3;
+}
+
+.left-feature-item h3{
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #333;
+    
+}
+
+.left-feature-item p{
+    color: #333;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 25px;
+}
+
+.feature-iphone img{
+    width: 100%; /*bardzo sie przydaje zeby fajnie skalowalo*/
+}
+
+.right-feature-item{
+    position: relative;
+    padding-left: 90px;
+   margin-bottom: 65px;
+    margin-top: 35px;
+    text-align: left;
+}
+
+.right-feature-item-icons{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 90px;
+    text-align: center;
+}
+
+.right-feature-item-icons i{
+    font-size: 40px;
+    color: #129cf3;
+}
+
+
+
+.right-feature-item h3{
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #333;
+    
+}
+
+.right-feature-item p{
+    color: #333;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 25px;
+}
+
+/*======= KUP TERAZ SEKCJA======*/
+
+#purashe-now{
+    background-color: #1a1a1a;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#purashe-now p{
+    color: #dfdfdf;
+    font-size: 18px;
+    font-weight: 300;
+    
+}
+
+.btn-purashe-now,
+.btn-purashe-now:active,
+.btn-purashe-now:focus,
+.btn-purashe-now:visited{
+    background-color: #129cf3;
+    border: 1px solid #129cf3;
+    color: #fff;
+    border-radius: 3px;
+    padding: 15px 35px;
+    text-transform: uppercase;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+    box-shadow: none;
+}
+
+.btn-purashe-now:hover
+{
+    background-color: #1274b1;
+    border-color: #316b90;
+    box-shadow: none;
+}
+
+
+/*==== screeny=====*/
+
+#screens .carousel-inner img{
+    border-radius: 0;
+    border: none;
+    width: 100%;
+}
+
+
+#screens .carousel-item{
+margin-bottom: 100px;
+}
+
+#screens .carousel-inner{
+    height: 100%;
+}
+/*----zmiana koloru przyciskow karuzeli---*/
+.carousel-indicators li {
+  background-color: #d8d8d8;
+  
+}
+
+.carousel-indicators .active {
+  background-color: #129cf3;
+}
+
+/*==== liczniki====*/
+
+#counter{
+    background-image: url(img/counter-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+}
+
+.counter-overlay{
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background: rgba(0,0,0, 0.4);
+}
+
+.counter-item i{
+    color: #129cf3;
+    font-size: 60px;
+}
+
+.counter-item h2{
+    font-family: "Source Sans Pro", sans-serif;
+    color: #d7dadb;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 35px;
+    margin-top: 15px;
+    margin-bottom: 1px;
+}
+
+.counter-item p{
+    color: #d7dadb;
+    font-size: 20px;
+    margin-top: 0px;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+
