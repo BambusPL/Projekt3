@@ -53,6 +53,15 @@ body {
     -o-transition: all 1s;
 }
 
+.menu .navbar-nav > .active>a, 
+.menu .navbar-nav > .active>a:hover,
+.menu .navbar-nav > .active>a:focus {
+    background-color: transparent;
+    color: #129CF3;
+} 
+
+
+
   
 
 

@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/animate.css">
 
     <!--favicon-->
     <link rel="shortcut icon" href="img/favicon.ico" />
@@ -42,7 +43,7 @@
   
   
   <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-    <ul class="nav navbar-nav ">
+    <ul class="nav navbar-nav naw ">
       <li class="nav-item active">
         <a data-scroll class="nav-link" href="#HOME">Home <span class="sr-only">(current)</span></a>
       </li>
@@ -62,7 +63,7 @@
        
         <div class="header-overlay">
             <!--background dla calego headera, w tym przypadku przyciemnienie-->
-            <div class="container">
+            <div class="container header-container">
                 <div class="row">
                     <div class="col-md-12">
                         <!--Logo-->
@@ -75,7 +76,7 @@
 
                 <div class="row">
                     <div class="col-md-8">
-                        <div class="header-text">
+                        <div class="header-text wow bounceInUp" >
                             <!-- tytuł i opis-->
 
                             <h1>To jest moja przykładowa strona</h1>
@@ -487,7 +488,7 @@
                             <div class="counter-item">
                             
                                 <div><i class="fa fa-cloud-download"></i></div>
-                                <h2><span class="counter-num"> 1588 </span><span>+</span></h2>
+                                <h2><span class="counter-num integers"> 1588 </span><span>+</span></h2>
                                 <p>Downloads</p>
                             </div>
                         
@@ -499,7 +500,7 @@
                             <div class="counter-item">
                             
                                 <div><i class="fa fa-gift"></i></div>
-                                <h2><span class="counter-num"> 3500 </span><span>+</span></h2>
+                                <h2><span class="counter-num integers"> 3500 </span><span>+</span></h2>
                                 <p>Awards</p>
                             </div>
                         
@@ -510,7 +511,7 @@
                             <div class="counter-item">
                             
                                 <div><i class="fa fa-heart-o"></i></div>
-                                <h2><span class="counter-num"> 199 </span><span>+</span></h2>
+                                <h2><span class="counter-num integers"> 199 </span><span>+</span></h2>
                                 <p>Likes</p>
                             </div>
                         
@@ -736,6 +737,9 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
     <script src="js/script.js"></script>
     <script src="js/smooth-scroll.js"></script>
+     <script src="js/wow.min.js"></script>
+      <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/jquery.counterup.min.js"></script>
     
     <script>
     $('.carousel').carousel({
@@ -746,6 +750,14 @@
     <script>
     smoothScroll.init();
 </script>
+
+<script>
+              new WOW().init();
+              </script>
+ 
+   
+
+ 
     
   
 </body>

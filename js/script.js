@@ -48,19 +48,44 @@ $(document).ready(function(){
     });
 });
 
-//fajne przewijanie
 
-$(function() {
-  $('#counter').click(function() {
-    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-      var target = $(this.hash);
-      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-      if (target.length) {
-        $('html, body').animate({
-          scrollTop: target.offset().top
-        }, 1000);
-        return false;
-      }
-    }
-  });
+/*auto padding*/
+
+$(document).ready(function() {
+    
+    'use strict';
+    
+    setInterval( function() {
+        
+        'use strict';
+        
+        var windowHeight = $(window).height();
+        
+        var containerHeight = $(".header-container").height();
+        
+        var padTop = windowHeight - containerHeight;
+        
+        $(".header-container").css({
+            
+            'padding-top': Math.round( padTop / 3) + 'px',
+            'padding-bottom': Math.round( padTop / 3) + 'px'
+            
+        });
+        
+        
+    }, 10)
+    
+    
 });
+
+
+/* odliczanko*/
+
+jQuery(document).ready(function( $ ) {
+$('.counter-num').counterUp({
+delay: 10, // the delay time in ms
+time: 1000 // the speed time in ms
+});
+});
+
+
