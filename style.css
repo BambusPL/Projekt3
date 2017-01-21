@@ -4,7 +4,7 @@
 }
 
 body {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Lato', sans-serif;
     overflow-y: scroll;
     overflow-x: hidden;
     font-size: 14px;
@@ -53,22 +53,11 @@ body {
     -o-transition: all 1s;
 }
 
-.menu .navbar-nav > .active>a, 
-.menu .navbar-nav > .active>a:hover,
-.menu .navbar-nav > .active>a:focus {
-    background-color: transparent;
-    color: #129CF3;
-} 
-
-
-
-  
-
 
 /*============ naglowek==========*/
 
 header {
-    background-image: url(img/header-bg.jpg);
+    background-image: url(zdjecia/pexels-photo.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: 50% 50%;
@@ -97,7 +86,12 @@ header {
     line-height: 28px;
     font-weight: 300;
 }
-
+.header-text hr{
+     border-color: #129cf3;
+    width: 100px;
+    
+    margin-top: 20px;
+}
 .header-btns {
     margin-top: 90px;
     margin-bottom: 50px;
